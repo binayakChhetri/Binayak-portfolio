@@ -1,8 +1,6 @@
-@import "tailwindcss";
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-/* @import "tailwindcss/preflight"; */
+@import "tailwindcss";
 
 * {
   margin: 0;
@@ -11,6 +9,16 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+}
+
+@theme {
+  --color-primary: #050816;
+  --secondary-color: #aaa6c3;
+  --tertiary-color: #151030;
+  --black-100: #100d25;
+  --black-200: #090325;
+  --white-100: #f3f3f3;
+  --box-shadow-card: 0px 35px 120px -15px #211e35;
 }
 
 .hash-span {
