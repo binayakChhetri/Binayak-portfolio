@@ -4,7 +4,7 @@
 
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
@@ -13,8 +13,8 @@
 
 @theme {
   --color-primary: #050816;
-  --secondary-color: #aaa6c3;
-  --tertiary-color: #151030;
+  --color-secondary: #aaa6c3;
+  --color-tertiary: #151030;
   --black-100: #100d25;
   --black-200: #090325;
   --white-100: #f3f3f3;
