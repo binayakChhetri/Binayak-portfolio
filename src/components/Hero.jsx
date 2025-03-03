@@ -2,8 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { style } from "framer-motion/client";
-import { transition } from "three/examples/jsm/tsl/display/TransitionNode.js";
 const Hero = () => {
   return (
     <section className={`bg-hero relative w-full h-screen mx-auto`}>
@@ -19,8 +17,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Binayak</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a full-stack developer <br className="sm:block hidden" /> who
-            loves building web applications.
+            I'm a frontend developer <br className="sm:block hidden" /> who
+            loves building web applications design.
           </p>
         </div>
       </div>
