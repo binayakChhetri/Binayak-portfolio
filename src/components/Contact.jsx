@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../HOC";
 import { slideIn } from "../utlis/motion";
-import { style } from "framer-motion/client";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -15,7 +15,36 @@ const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
     console.log(e.target.value);
   };
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+
+    emailjs
+      .send(
+        "service_b3fgzil",
+        "template_yrmsbec",
+        {
+          from_name: form.name,
+          to_name: "Binayak",
+          from_email: form.email,
+          to_email: "binayakchhetri23.ac@gmail.com",
+          message: form.message,
+        },
+        "7J03qQRFFZc_ew7JY"
+      )
+      .then(
+        (res) => {
+          setIsLoading(false);
+          alert("Message sent successfully. I will get back to you soon.");
+          setForm({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          console.log(`Failed ${error}`);
+          setIsLoading(false);
+          alert("Failed to send message");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -71,7 +100,7 @@ const Contact = () => {
           </label>
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit font-bold shadow-md shadow-primary rounded-xl"
+            className="bg-tertiary py-3 px-8 outline-none w-fit font-bold shadow-md shadow-primary rounded-xl cursor-pointer"
           >
             {" "}
             {isLoading ? "Sending..." : "Send"}{" "}
