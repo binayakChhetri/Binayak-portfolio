@@ -5,7 +5,6 @@ import {
   About,
   Experience,
   Works,
-  Feedbacks,
   Contact,
   StarsCanvas,
   Tech,
@@ -22,7 +21,6 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
