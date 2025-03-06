@@ -2,10 +2,11 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Tilt } from "react-tilt";
 import { styles } from "../styles";
-import { git, github } from "../assets";
+import { git, github, livedemo } from "../assets";
 import { SectionWrapper } from "../HOC";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utlis/motion";
+import { li } from "framer-motion/client";
 
 const ProjectCard = ({
   index,
@@ -14,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_demo_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -42,18 +44,20 @@ const ProjectCard = ({
             </div>
           </div>
           {/* For live demo link */}
-          <div className="absolute inset-0 right-13 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
+          {live_demo_link && (
+            <div className="absolute inset-0 right-13 flex justify-end m-3 card-img_hover">
+              <div
+                onClick={() => window.open(live_demo_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={livedemo}
+                  alt="source code"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
             </div>
-          </div>
+          )}
         </div>
         <div className="mt-5 ">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
