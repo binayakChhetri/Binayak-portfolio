@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { Tilt } from "react-tilt";
 import { styles } from "../styles";
 import { github, livedemo } from "../assets";
 import { SectionWrapper } from "../HOC";
