@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { technologies } from "../constants";
 import { SectionWrapper } from "../HOC";
 import { styles } from "../styles";
