@@ -16,6 +16,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
 import proshore from "./company/proshore.png";
+import everestwalk from "./company/everestwalk.jpg";
 
 import wildoasis from "./wildoasis.png";
 import visionboard from "./visionboard.jpg";
@@ -41,4 +42,5 @@ export {
   wildoasis,
   visionboard,
   fastreactpizza,
+  everestwalk,
 };

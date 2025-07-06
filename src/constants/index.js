@@ -13,6 +13,7 @@ import {
   wildoasis,
   visionboard,
   fastreactpizza,
+  everestwalk,
 } from "../assets";
 
 export const navLinks = [
@@ -83,11 +84,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Internship",
+    title: "Frontend Developer (Internship)",
     company_name: "PROSHORE 🚀 ready-to-code dev teams",
     icon: proshore,
     iconBg: "#05005c",
     date: "Nov 2024 - Feb 2025",
+    points: [
+      "Built signup & dashboard pages of Vision Board with Redux, Formik, and Yup for validation, integrating RESTful APIs.",
+      "Optimized performance using React best practices and managed Git/GitHub workflows.",
+      "Collaborated in an Agile team with daily stand-ups and iterative development.",
+      "Worked with a mentor to refine code quality and implement feedback.",
+    ],
+  },
+  {
+    title: "Frontend Developer (Internship)",
+    company_name: "Everestwalk Groups",
+    icon: everestwalk,
+    iconBg: "#ffffff",
+    date: "May 2025 - Present",
     points: [
       "Built signup & dashboard pages of Vision Board with Redux, Formik, and Yup for validation, integrating RESTful APIs.",
       "Optimized performance using React best practices and managed Git/GitHub workflows.",
