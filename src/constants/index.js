@@ -103,10 +103,10 @@ const experiences = [
     iconBg: "#ffffff",
     date: "May 2025 - Present",
     points: [
-      "Built signup & dashboard pages of Vision Board with Redux, Formik, and Yup for validation, integrating RESTful APIs.",
-      "Optimized performance using React best practices and managed Git/GitHub workflows.",
-      "Collaborated in an Agile team with daily stand-ups and iterative development.",
-      "Worked with a mentor to refine code quality and implement feedback.",
+      // "Built signup & dashboard pages of Vision Board with Redux, Formik, and Yup for validation, integrating RESTful APIs.",
+      // "Optimized performance using React best practices and managed Git/GitHub workflows.",
+      // "Collaborated in an Agile team with daily stand-ups and iterative development.",
+      // "Worked with a mentor to refine code quality and implement feedback.",
     ],
   },
 ];
