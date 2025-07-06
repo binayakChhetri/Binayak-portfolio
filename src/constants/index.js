@@ -85,7 +85,7 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer (Internship)",
-    company_name: "PROSHORE 🚀 ready-to-code dev teams",
+    company_name: "PROSHORE 🚀 High-Performance Dev Teams with Purpose",
     icon: proshore,
     iconBg: "#05005c",
     date: "Nov 2024 - Feb 2025",
