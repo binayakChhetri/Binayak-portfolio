@@ -103,10 +103,12 @@ const experiences = [
     iconBg: "#ffffff",
     date: "May 2025 - Present",
     points: [
-      // "Built signup & dashboard pages of Vision Board with Redux, Formik, and Yup for validation, integrating RESTful APIs.",
-      // "Optimized performance using React best practices and managed Git/GitHub workflows.",
-      // "Collaborated in an Agile team with daily stand-ups and iterative development.",
-      // "Worked with a mentor to refine code quality and implement feedback.",
+      "Involved in ongoing company projects, where I had to understand the project structure, existing codebase, and application flow to contribute effectively",
+      'Contributed to the nearly completed project "Ideabaaz Dangol" by fixing UI issues and implementing client-requested UI changes and the admin dashboard.',
+      'Worked on the "Incubators" project by updating layouts, redesigning UI sections, and integrating APIs.',
+      "Used Git/GitHub for version control: created branches, managed pull requests, and resolved merge conflicts.",
+      "Communicated regularly with team members to ensure smooth coordination and workflow.",
+      "Reached out to senior developers when stuck and learned by reviewing their code and solutions.",
     ],
   },
 ];
