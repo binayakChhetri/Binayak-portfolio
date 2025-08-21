@@ -49,11 +49,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a frontend-focused software developer skilled in JavaScript,
-        TypeScript and React. I specialize in building scalable, user-friendly
-        interfaces with clean and efficient code. While my strength lies in
-        frontend development, I'm also expanding my skills in backend
-        technologies to become a well-rounded full-stack developer{" "}
+        I’m an Associate Software Engineer experienced in PHP, MySQL, and
+        WordPress in my daily work. I also have a strong background in frontend
+        development with React.js and Next.js, enabling me to build full-stack
+        solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-row flex-wrap gap-10">

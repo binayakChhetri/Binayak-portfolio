@@ -1,7 +1,7 @@
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import {
   Navbar,
-  Hero,
   About,
   Experience,
   Works,
@@ -9,6 +9,9 @@ import {
   StarsCanvas,
   Tech,
 } from "./components";
+
+const Hero = React.lazy(() => import("./components/Hero"));
+
 const App = () => {
   return (
     <BrowserRouter>

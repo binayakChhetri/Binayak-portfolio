@@ -15,8 +15,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
-import proshore from "./company/proshore.png";
-import everestwalk from "./company/everestwalk.jpg";
+import proshore from "./company/proshore.webp";
+import everestwalk from "./company/everestwalk.webp";
+import codewing from "./company/codewing_solutions.webp";
 
 import wildoasis from "./wildoasis.png";
 import visionboard from "./visionboard.jpg";
@@ -38,9 +39,10 @@ export {
   redux,
   tailwind,
   typescript,
-  proshore,
   wildoasis,
   visionboard,
   fastreactpizza,
+  codewing,
   everestwalk,
+  proshore,
 };
